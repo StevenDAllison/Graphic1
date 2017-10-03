@@ -16,5 +16,15 @@ namespace Graphic1
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            int xchange = 3;
+         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Location = new Point(pictureBox1.Location.X + 15, pictureBox1.Location.Y);
+        }
     }
 }
